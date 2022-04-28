@@ -1,0 +1,15 @@
+{
+  "name": "tbga-teoriadainformacao",
+  "packageManager": "yarn@3.1.0",
+  "dependencies": {
+    "async-lz-string": "^1.0.3",
+    "lz-string": "^1.4.4"
+  },
+  "scripts": {
+    "dev": "tsc index.ts && node index.js",
+    "golomb": "tsc functions/golomb.ts && node functions/golomb.js"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.24"
+  }
+}
